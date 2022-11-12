@@ -10,7 +10,6 @@ import numeral from "numeral";
 
 export const PropertyFeatures = () => {
   const { propertyFeatures } = usePageContext();
-  console.log("Property Features: ", propertyFeatures);
   return (
     <div className="max-w-lg mx-auto my-10 bg-white text-slate-900 p-5">
       <div className="grid grid-cols-2 mb-4 gap-y-5">

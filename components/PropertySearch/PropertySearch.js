@@ -39,7 +39,6 @@ export const PropertySearch = () => {
     const data = await response.json();
     setProperties(data.properties);
     setTotalResults(data.total);
-    console.log("Search Data: ", data);
   };
 
   const handlePageClick = async (pageNumber) => {
